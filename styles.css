@@ -1,0 +1,103 @@
+html, body{
+    background: #0d2a44;
+    font-family: 'PT Sans';
+}
+
+.calendary {
+    text-align: center;
+    width: 300px;
+    color: #f4f4f4;
+}
+
+#availabilityButton{
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'PT Sans';
+    background-color: #41cfc4;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#availabilityButton:hover{
+    scale: calc(1.08);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+h1{
+    color: #41cfc4;
+}
+
+ol {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 0;
+}
+
+li {
+    text-align: right;
+    cursor: pointer;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.selected{
+    background-color: #41cfc470; 
+    border-radius: 8px;
+    color: #fff;
+    
+}
+
+.first-day {
+    grid-column-start: 4;
+}
+
+.date-name {
+    background: #eee;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dayInfo {
+    margin-top: 20px;
+    display: none;
+}
+
+#backButton{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'PT Sans';
+    background-color: #41cfc4;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#backButton:hover{
+    scale: calc(1.08);
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+}
+
+.Name_h2{
+    color: #f4f4f4;
+}
+
+.Schendule_p{
+    color: #41cfc4;
+}
+
+.Schendule_a{
+    color: white;
+    margin: 0 10px;
+}
+
+.Schendule_a:hover{
+    color: #41cfc4;
+}

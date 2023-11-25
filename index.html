@@ -1,0 +1,38 @@
+<!--
+	!!!
+	kommo_period - GET-parameter, the selected period on the Kommo Dashboard
+	possible values `day/week/month`
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba calendario con API Dummy</title>
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic-ext">
+	<link rel="stylesheet" type="text/css" href='//fonts.googleapis.com/css?family=PT+Sans:400,500,600,700&subset=latin,cyrillic-ext'>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="calendary" id="calendary">
+        <h1>Noviembre 2023</h1>
+        <ol id="calendarDays">
+			<li>Dom</li>
+			<li>Lun</li>
+			<li>Mar</li>
+			<li>Mié</li>
+			<li>Jue</li>
+			<li>Vie</li>
+			<li>Sáb</li>
+            <!-- Se agregan los días del 1 al 31 con js -->
+        </ol>
+        <button id="availabilityButton" disabled>Disponibilidad</button>
+    </div>
+	<div id="dayInfo">
+		<button id="backButton" >Atrás</button>
+		<!-- acá se mostrara la información obtenida del día seleccionado -->
+	</div>
+	<script src="/script.js"></script>
+</body>
+</html>
