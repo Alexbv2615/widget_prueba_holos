@@ -80,7 +80,7 @@ function showDayInfo() {
     //Mostramos los datos
     dayInfoContainer.style.display = "block";
 
-    //sino hacemos una petición de los datos de la API dummy
+    //Hacemos una petición de los datos de la API dummy
     fetch(dbUrl)
 
         //Convertimos a formato json, que se pueda leer
@@ -160,7 +160,7 @@ function SelectSchedule(item, idPersonal) {
 //     // URL del servicio externo
 //     const apiUrl = 'https://alexandernoel.kommo.com/api/v4/account';
 
-//     // Crea una cadena de autorización usando el ID de integración y la clave secreta
+//     // Creamos una cadena de autorización usando el ID de integración y la clave secreta
 //     const authorizationHeader = `Basic ${btoa(`${integrationId}:${secretKey}`)}`;
 
 //     // Hacemos una solicitud fetch al JSON externo con las credenciales
@@ -179,7 +179,6 @@ function SelectSchedule(item, idPersonal) {
 //             console.log(`Id del personal: ${idPersonal}`);
 //             console.log(`Id del cliente: ${clientId}`);
 
-//             // Ahora puedes hacer lo que quieras con el ID del cliente, ya sea mostrarlo en la interfaz de usuario o realizar más operaciones.
 //         })
 //         .catch(error => {
 //             console.error('Error al obtener el JSON externo:', error);
